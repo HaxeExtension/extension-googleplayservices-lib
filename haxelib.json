@@ -1,0 +1,10 @@
+{
+        "name": "openfl-gps-lib",
+        "url": "",
+        "license": "",
+        "contributors":["fbricker"],
+        "tags": ["api","google play services","openfl"],
+        "description": "OpenFL Google Play Services Library for Android.",
+        "version": "1.0.0",
+        "releasenote": "First release!"
+}

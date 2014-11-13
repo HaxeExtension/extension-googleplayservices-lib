@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension>
+	<section if="android">
+		<dependency name="google-play-services_lib" path="${ANDROID_SDK}/extras/google/google_play_services/libproject/google-play-services_lib" />
+		<dependency name="google-play-services_lib" path="dependencies/google-play-services_lib" />
+	</section>
+</extension>

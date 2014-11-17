@@ -5,6 +5,6 @@
         "contributors":["fbricker"],
         "tags": ["api","google-play-services","gps","openfl"],
         "description": "OpenFL Google Play Services Library for Android.",
-        "version": "1.0.0",
-        "releasenote": "First release!"
+        "version": "1.0.1",
+        "releasenote": "Added download/upgrade notice during compilation time."
 }

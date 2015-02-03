@@ -1,5 +1,4 @@
-openfl-gps-lib
-=======
+#openfl-gps-lib
 
 OpenFL extension that simply adds Google Play Services Library (google-play-services_lib) into your project [for android targets].
 
@@ -38,8 +37,7 @@ android.library.reference.1=../extension-api
 android.library.reference.2=../google-play-services_lib
 ```
 
-Disclaimer
-=======
+###Disclaimer
 
 Google is a registered trademark of Google Inc.
 http://unibrander.com/united-states/140279US/google.html

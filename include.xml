@@ -6,6 +6,7 @@
 			<setenv name="GOOGLE_PLAY_SERVICES_ALERTED" value="1" />
 		</section>
 		<dependency name="google-play-services_lib" path="${ANDROID_SDK}/extras/google/google_play_services/libproject/google-play-services_lib" />
-		<dependency name="google-play-services_lib" path="dependencies/google-play-services_lib" />
+		<template path="deps/google-play-services_lib/build.xml" />
+		<template path="deps/google-play-services_lib/project.properties" />
 	</section>
 </extension>

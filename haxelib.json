@@ -5,6 +5,6 @@
         "contributors":["fbricker"],
         "tags": ["api","google-play-services","gps","openfl"],
         "description": "OpenFL Google Play Services Library for Android.",
-        "version": "1.0.2",
-        "releasenote": "Avoid alerting about downloading google-play-services_lib more than once."
+        "version": "1.0.4",
+        "releasenote": "Change library mixing method to work with Lime 2.4.2+"
 }

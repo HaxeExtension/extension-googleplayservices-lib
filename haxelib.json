@@ -1,6 +1,6 @@
 {
         "name": "openfl-gps-lib",
-        "url": "https://github.com/fbricker/openfl-gps-lib",
+        "url": "https://github.com/sempaigames/openfl-gps-lib",
         "license": "MIT",
         "contributors":["fbricker"],
         "tags": ["api","google-play-services","gps","openfl"],

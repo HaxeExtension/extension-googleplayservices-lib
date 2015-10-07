@@ -1,5 +1,5 @@
 #!/bin/bash
 dir=`dirname "$0"`
 cd "$dir"
-haxelib remove openfl-gps-lib
-haxelib local openfl-gps-lib.zip
+haxelib remove extension-googleplayservices-lib
+haxelib local extension-googleplayservices-lib.zip

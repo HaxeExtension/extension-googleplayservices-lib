@@ -1,4 +1,4 @@
-#openfl-gps-lib
+#extension-googleplayservices-lib
 
 OpenFL extension that simply adds Google Play Services Library (google-play-services_lib) into your project [for android targets].
 
@@ -8,7 +8,7 @@ This library does not provide any functionality, since it's intended to be used 
 
 To install this library, you can simply get the library from haxelib like this:
 ```bash
-haxelib install openfl-gps-lib
+haxelib install extension-googleplayservices-lib
 ```
 
 Also, you'll need to download the google-play-services_lib from your Android SDK Manager

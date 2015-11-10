@@ -21,7 +21,7 @@ Then select *Google Play Services* under the "Extras" section.
 
 ###How to use this to build an extension
 
-If you're developing extensions or implementing features that requires Google Play Services library, you just need to add <haxelib name="openfl-gpg" /> into your project.xml.
+If you're developing extensions or implementing features that requires Google Play Services library, you just need to add ```<haxelib name="extension-googleplayservices-lib" />``` into your project.xml.
 
 Also, if you're building an extension that contains an Android Library, you may need to add the following line to your project.properties
 ```

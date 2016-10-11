@@ -3,8 +3,8 @@
         "url": "https://github.com/sempaigames/extension-googleplayservices-lib",
         "license": "MIT",
         "contributors":["fbricker"],
-        "tags": ["api","google-play-services","gps","openfl"],
-        "description": "OpenFL Google Play Services Library for Android.",
-        "version": "1.1.0",
-        "releasenote": "Rename extension from openfl-gps-lib to extension-googleplayservices-lib"
+        "tags": ["deprecated"],
+        "description": "OpenFL Google Play Services Library for Android - DEPRECATED",
+        "version": "1.1.1",
+        "releasenote": "This extension is deprecated - Please use extension-googleplayservices-basement from now on."
 }

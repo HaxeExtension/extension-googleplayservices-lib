@@ -1,41 +1,6 @@
-#extension-googleplayservices-lib
+#extension-googleplayservices-lib (DEPRECATED)
 
-OpenFL extension that simply adds Google Play Services Library (google-play-services_lib) into your project [for android targets].
-
-This library does not provide any functionality, since it's intended to be used by other libraries (such as Google Play Games, and Google AdMob).
-
-###How to Install
-
-To install this library, you can simply get the library from haxelib like this:
-```bash
-haxelib install extension-googleplayservices-lib
-```
-
-Also, you'll need to download the google-play-services_lib from your Android SDK Manager
-```bash
-$ANDROID_SDK/tools/android
-```
-
-Then select *Google Play Services* under the "Extras" section.
-
-
-###How to use this to build an extension
-
-If you're developing extensions or implementing features that requires Google Play Services library, you just need to add ```<haxelib name="extension-googleplayservices-lib" />``` into your project.xml.
-
-Also, if you're building an extension that contains an Android Library, you may need to add the following line to your project.properties
-```
-android.library.reference.2=../google-play-services_lib
-```
-
-here is an example on how may your project.properties should look like:
-
-```
-android.library=true
-target=android-::ANDROID_TARGET_SDK_VERSION::
-android.library.reference.1=../extension-api
-android.library.reference.2=../google-play-services_lib
-```
+THIS EXTENSION IS DEPRECATED. PLEASE MIGRATE TO https://github.com/SempaiGames/extension-googleplayservices-basement IF YOU'RE NEEDING GOOGLE PLAY SERVICES LIBRARIES FOR OPENFL <= 4.0 (as OPENFL 4.1+ uses gradle so it doesn't require this extension anymore).
 
 ###Disclaimer
 

@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension>
-	<section if="android">
-		<section unless="GOOGLE_PLAY_SERVICES_ALERTED">
-			<echo value="extension-googleplayservices-lib: [** JUST IN CASE NOTICE **] Please remember to download and upgrade 'Google Play Services Library' on a regular basis. Read more at https://github.com/sempaigames/extension-googleplayservices-lib" />
-			<setenv name="GOOGLE_PLAY_SERVICES_ALERTED" value="1" />
-		</section>
-		<dependency name="google-play-services_lib" path="${ANDROID_SDK}/extras/google/google_play_services/libproject/google-play-services_lib" />
-		<template path="deps/google-play-services_lib/build.xml" />
-		<template path="deps/google-play-services_lib/project.properties" />
+	<error value="EXTENSION-GOOGLEPLAYSERVICES-LIB is DEPRECATED! You should use 'extension-googleplayservices-basement' from now on. (don't worry, the API remains the same, so this will not harm your project). Thx! (PS: If you're seeing this message, you may need to ask some extension developers to upgrade their extensions since they shouldn't use this one anymore)." if="android"/>
 	</section>
 </extension>

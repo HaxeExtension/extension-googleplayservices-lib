@@ -1,14 +1,14 @@
-#extension-googleplayservices-lib (DEPRECATED)
+# extension-googleplayservices-lib (DEPRECATED)
 
 THIS EXTENSION IS DEPRECATED. PLEASE MIGRATE TO https://github.com/SempaiGames/extension-googleplayservices-basement IF YOU'RE NEEDING GOOGLE PLAY SERVICES LIBRARIES FOR OPENFL <= 4.0 (as OPENFL 4.1+ uses gradle so it doesn't require this extension anymore).
 
-###Disclaimer
+### Disclaimer
 
 Google is a registered trademark of Google Inc.
 http://unibrander.com/united-states/140279US/google.html
 
 
-###License
+### License
 
 The MIT License (MIT) - [LICENSE.md](LICENSE.md)
 
